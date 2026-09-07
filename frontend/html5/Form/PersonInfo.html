@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+</head>
+<body>
+    <form action="submit" name="PersonInfo" target="_blank" method="post" >
+        <h2> Registration Form</h2>
+        <label for="">
+            <!-- This will allow the user to type in their Registration Form -->
+            UserName: <input type="text"
+            minlength="3"
+            name="personName"
+            maxlength="30"
+            required="required"
+            placeholder="Please Enter your Name"
+            >
+            <input type="submit">
+        </label>
+        <br>
+        <br>
+        <label for="">
+            <!-- This will allow the user to type in their email -->
+            Email: <input 
+            type="email" 
+            name="personEmail" 
+            minlength="2"
+            maxlength="60"
+            required="required"
+            placeholder="Please Enter your Email">
+        </label>
+        <br>
+        <br>
+        <label for="">
+            <!-- This will allow the user to type in his or her Age. -->
+            Age: <input type="number"
+            min="10"
+            max="60"
+            required="required"
+            placeholder="Please Enter your Age"
+            >
+        </label>
+        <br>
+        <br>
+        <label for="">
+            <!-- This will allow the user to type in their PhoneNumber -->
+            PhoneNumber: <input 
+            type="tel" 
+            name="personNumber" 
+            minlength="11"
+            maxlength="13"
+            readonly
+            required="required"
+            placeholder="Enter your PhoneNumber">
+        </label>
+        <br>
+        <br>
+        <label for="">
+            <!-- This will allow the user to type in their Gender -->
+            Please Select Your Gender: 
+        </label>
+        <label for="">Male:
+            <input type="radio" name="Gender" value="Male">
+        </label>
+        <label for="">Female:
+            <input type="radio" name="Gender" value="Female">
+        </label>
+        <br>
+        <br>
+        <label for="">Please Select Your Hobbies: </label>
+        <label for="" >Football:
+            <input type="checkbox" checked disabled name="hobby" value="football">
+        </label>
+        <label for="">Reading:
+            <input type="checkbox" name="hobby" value="reading">
+        </label>
+        <label for="">Cooking:
+            <input type="checkbox" name="hobby" value="cooking">
+        </label>
+        <label for="" >Singing:
+            <input type="checkbox" name="hobby" value="Singing">
+        </label>
+        <br>
+        <br>
+        <label for="">State:</label>
+        <select name="state" id="" required >
+            <option value="" disabled>Please Select Your State</option>
+            <option value="Lagos">lagos</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Enugu">Enugu</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Region:</label>
+        <select name="" id="">
+            <optgroup label="Northern Region">
+                <option value="Kano">Kano</option>
+                <option value="Abuja">Abuja</option>
+                <option value="Kebbi">Kebbi</option>
+            </optgroup>
+            <optgroup label="Southern Region">
+                <option value="Anambra">Anambra</option>
+                <option value="Enugu">Enugu</option>
+                <option value="Abia">Abia</option>
+            </optgroup>
+            <optgroup label="Western Region">
+                <option value="Lagos">Lagos</option>
+                <option value="Ogun">Ogun</option>
+                <option value="Oyo">Oyo</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="">
+            Password: <input type="password"
+            minlength="2"
+            name="Password"
+            maxlength="60"
+            required="required"
+            placeholder="Please Enter your Password">
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Confirm Password: <input 
+            type="password"
+            minlength="2"
+            maxlength="60"
+            required="required"
+            placeholder="Enter Your Password Again"/>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Upload CV: <input 
+            type="file" 
+            name="" 
+            required="required"
+            placeholder="Upload your CV">
+        </label>
+        <br>
+        <br>
+        <label for="">
+            0.00 <input 
+            type="range" 
+            name="price" 
+            id="">
+        </label>
+        <br><br>
+        <label for="">0.00</label>
+        <textarea name="txt" id="" cols="30" rows="10" placeholder="Enter Your Feed Back">
+
+        </textarea>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+
+
+        <br><br>
+        <label for="food">Choose your food from the list:</label>
+        <input list="foods" name="food" id="food">
+        <datalist id="foods">
+            <option value="Rice"></option>
+            <option value="Yam"></option>
+            <option value="Noodles"></option>
+            <option value="Spaghetti"></option>
+            <option value="Beans"></option>
+        </datalist>
+    </form>
+</body>
+</html>
