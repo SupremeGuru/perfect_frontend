@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hue, Saturation, and Lightness colouring with css</title>
+    <style>
+        #one{
+            outline: 2px solid hsl(270, 50%, 78%);
+            background-color: hsl(80,90%,28%);
+            color:hsl(160,5%,56%);
+        }
+        #two{
+            outline: 2px solid hsla(20, 5%, 8%, 0.3);
+            background-color: hsla(20,50%,78%,0.7);
+            color: hsl(20,50%,78%);
+        }
+        #three{
+            outline: 2px solid hsla(260, 92%, 30%, 0.9);
+            background-color: hsla(40,25%,68%,0.7);
+            color: hsl(20,90%,45%);
+
+        }
+    </style>
+</head>
+<body>
+    <h2 id="one">I love css</h2>
+    <h2 id="two"> I love HTML</h2>
+    <h2 id="three">I love Javascript</h2>
+</body>
+</html>
