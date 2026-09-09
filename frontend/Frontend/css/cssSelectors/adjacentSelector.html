@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adjacent selectors</title>
+    <style>
+       div + .myclass{
+        width: 500px;
+        height: 500px;
+        border: 2px solid red;
+
+        }
+        div h1 + p {
+            color: blueviolet;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Est odio natus, sit esse atque facilis,
+              ullam harum distinctio, ex magnam tempora molestiae error?
+               Quia libero tenetur fugiat.
+             Officiis, nihil delectus.</p>
+    </div>
+    <div class="myclass">
+        My Class
+    </div>
+
+</body>
+</html>
