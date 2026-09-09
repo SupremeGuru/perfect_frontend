@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Box</title>
+    <style>
+        .box{
+            width: 50%;
+            padding: 20px;
+            background: #f0e68c;
+            float: left;
+            box-sizing: border-box;
+        }
+        .left-side{
+            width: 48%;
+            margin-right: 2%;
+
+        }
+        .right-side{
+            width: 48%;
+            margin-left: 2%;
+        }
+        .clearfix::after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Note box Sizing was created due to the problems about the boxModel which is Padding , Outline e.t.c -->
+    <h2>Two Equal Columns</h2>
+    <div class="clearfix">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat distinctio, officiis molestiae odio blanditiis! Quae, vitae quaerat quam recusandae officiis vero minima eos distinctio! Dolore dolores labore quia aperiam illo eaque nobis aspernatur ratione dolor. Odio numquam porro totam, quod voluptatibus dicta quasi culpa blanditiis nobis optio? Error alias aliquam, expedita facilis laborum ab qui dolores distinctio vel et, fuga blanditiis illum, id non! Incidunt impedit rerum quaerat. Blanditiis minus earum dignissimos vel doloremque necessitatibus ipsa quam? Dolor at accusantium atque quisquam placeat. Iure possimus sunt amet, non quisquam harum modi provident! Inventore blanditiis nostrum in mollitia! Perspiciatis, consectetur velit nesciunt dolore ea hic iusto dicta nihil facilis, labore non maxime quia dolor. Eius aspernatur dolorem sint unde, voluptatibus, exercitationem dicta laborum doloremque odit repellendus a perspiciatis voluptates ratione pariatur dignissimos aut. Totam minima perspiciatis aliquid aliquam non eligendi facere maiores! Tempore error repellendus temporibus esse iure possimus beatae sapiente delectus dolor mollitia dolore ipsum itaque nam ut quae aut alias praesentium nemo, dolorum autem consectetur! Iure voluptates consequatur consectetur ducimus non ullam mollitia, deleniti a. Earum perferendis debitis ab pariatur? Nostrum quos maiores quasi iusto. Assumenda fugit dicta veniam culpa odit praesentium enim, similique laudantium minima doloribus magni!</p>
+        </div>
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repudiandae id nisi rem corrupti delectus numquam! Officia possimus est ut quaerat iusto atque architecto ipsum, explicabo vitae cumque nulla totam labore et eius laudantium rerum amet hic aut impedit voluptatibus aliquam deserunt adipisci esse vero! Corporis enim commodi laudantium aut atque quia minima sed porro, animi iste voluptates nemo totam. Voluptatem dicta animi, quam eum, odio dolore ipsam doloribus tempora enim magni voluptates ducimus, ea accusamus pariatur culpa laudantium fugiat atque quod corrupti necessitatibus harum. Rerum temporibus saepe voluptatem asperiores laboriosam amet fuga quam sed, recusandae minus quas totam? Ex impedit laboriosam temporibus aliquam quas, nesciunt tenetur reiciendis sit eligendi quidem voluptatem. Vero eos, nostrum amet officia quod numquam consequatur vitae earum perferendis? Magni voluptate eaque odit delectus cumque officia autem quaerat debitis esse, quo, ullam hic nobis perspiciatis deserunt numquam, minima ea cum in fugiat omnis ab. Atque illum ab doloribus quidem. Molestiae est voluptatum beatae soluta numquam officiis minus esse nihil quidem, expedita quisquam excepturi? Porro eaque amet facere, pariatur, ratione sapiente dignissimos, vitae eos eius suscipit sequi exercitationem corrupti harum. Aperiam unde quas minima repudiandae quo voluptates fuga sed omnis dolore quisquam, numquam, neque itaque deleniti rem?
+            </p>
+        </div>
+    </div>
+    <br>
+    <h2>Two Equal Columns with Margin In-between </h2>
+    <div class="clearfix">
+        <div class="box left-side">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum est, soluta eligendi numquam commodi consequuntur id libero! Temporibus, voluptate consectetur excepturi omnis molestiae atque modi enim culpa voluptatum ipsam cumque doloremque nam non nesciunt voluptatem fugit aliquid suscipit. Quidem et reiciendis fugit, iusto saepe ipsa ea alias beatae expedita? Recusandae iusto eligendi et ab aliquam, quia soluta. Numquam praesentium tempore excepturi et quam hic quas delectus. Dolor maiores iure quam ullam alias porro praesentium accusamus minus labore, sint voluptatum nihil ex, dolorum quae quidem quisquam. Reiciendis, facere? Mollitia deserunt omnis fuga earum voluptatum atque a autem, aliquid quae magni, dolores veniam sapiente, alias nam eveniet! Deserunt autem accusantium animi laboriosam, beatae incidunt doloribus facilis harum odit voluptatum ducimus, laborum excepturi fugit, dignissimos hic dolorem! Ex, ut illum harum necessitatibus consectetur est doloremque reiciendis debitis, impedit ullam optio. Ipsum iste accusantium magni maiores tempora eum id facere architecto perspiciatis cupiditate facilis, reprehenderit dignissimos quos rem et doloribus adipisci sunt molestias in nostrum consectetur dolor ad quibusdam? Architecto ipsum obcaecati quia sint quisquam, debitis officia ducimus impedit sequi, rerum sit quam aperiam consequuntur, ex non expedita. Dolore aut alias doloremque vel consequatur, porro sed recusandae ratione dolores, consequuntur temporibus voluptatem hic et?
+            </p>
+        </div>
+        <div class="box right-side">
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo ratione voluptas quae aspernatur similique totam sint, exercitationem placeat nemo aliquid officiis corporis culpa magni hic nihil, quas modi ad officia iure? Necessitatibus officia eaque, minus ad, culpa labore rerum quam ipsam eligendi ratione fuga. Aliquam repellat sequi sapiente facilis consequuntur eum, eligendi qui rem? Ipsum eius incidunt, nihil quas, animi repellendus reiciendis unde dignissimos molestiae in at. In tenetur ex, nemo illo ipsum similique eaque reprehenderit voluptatum inventore quam doloremque quidem laudantium cupiditate id dolorem atque natus harum, iusto aut reiciendis autem praesentium. Obcaecati consectetur voluptatum culpa molestias dignissimos architecto amet provident voluptas ad optio rerum, modi blanditiis neque nostrum consequuntur commodi possimus quam, impedit corrupti ducimus voluptate sequi! Totam commodi eius aperiam accusantium? Cumque soluta corrupti, perspiciatis minus magni culpa. Mollitia aliquam esse repudiandae accusamus perspiciatis ipsum aperiam nam, unde magni modi, sapiente in libero voluptas veritatis, consequuntur molestiae accusantium corrupti minus quibusdam nihil! Aut incidunt quae, harum temporibus reiciendis quas libero commodi ea eligendi porro odit dolores deserunt culpa itaque! Modi adipisci expedita facilis inventore laudantium eius non quisquam corporis excepturi consequatur nam dignissimos beatae corrupti, ducimus blanditiis officiis cum molestias nostrum sint sed facere ratione debitis!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
