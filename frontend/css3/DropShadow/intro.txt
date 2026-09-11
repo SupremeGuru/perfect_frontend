@@ -1,0 +1,3 @@
+CSS3 box-shadow Property 
+The box-shadow property can be used tho add shadow to the element's boxes . 
+You can even apply more than one shadow effects usinga a comman separate list of shadows.
