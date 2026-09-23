@@ -1,0 +1,21 @@
+.button-group {
+  display: flex; /* Aligns buttons in a row */
+}
+
+.button-group button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 24px;
+  border: 1px solid #038053;
+  cursor: pointer;
+}
+
+/* Remove right border for all buttons except the last one */
+.button-group button:not(:last-child) {
+  border-right: none; 
+}
+
+/* Add a hover effect */
+.button-group button:hover {
+  background-color: #038053;
+}
