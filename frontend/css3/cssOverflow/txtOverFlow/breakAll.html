@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Overflow using wordbreak break-all</title>
+    <style>
+            p {
+            width: 160px;
+            padding: 10px;
+            background: #90ee90;
+            word-break: break-all;
+
+        }
+        p.line1{
+            width: 160px;
+            padding: 10px;
+            background: #90ee90;
+            word-break: break-all;
+
+        }
+        p.line2{
+            width: 150px;
+            padding: 10px;
+            background: #90ee90;
+            word-break: keep-all;
+        }
+    </style>
+</head>
+<body>
+    <p class="line1">the line of this paragraph may break at any character</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Perferendis at minus minima doloremque blanditiis vero 
+        odio doloribus modi aspernatur suscipit ad quae, lauda
+        ntium mollitia maiores nisi dolorum?Lorem ipsum dolor 
+        sit amet consectetur, adipisicing elit. Dolorem totam n
+        atus laborum fuga!
+    </p>
+    <p class="line2">the line of this paragraph may break-at any-character</p>
+</body>
+</html>
