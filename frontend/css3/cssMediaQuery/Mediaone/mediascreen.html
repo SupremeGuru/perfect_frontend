@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media screen l</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            background: #ceceff;
+            box-sizing: border-box;
+        }
+        /* Mobile phones  (portrait and landscapes) --------------- */
+        @media screen and (max-width: 767px) {
+            .container{
+                width: 100%;
+                padding: 5px 10px;
+
+            }
+            
+        }
+        /*Tablets and ipads (portrait and landscape) ---------------  */
+        @media screen and (min-width:1280px) {
+            .container{
+                    width: 1200px;
+                    padding: 5px 20px;
+
+            }
+        }
+        /* Low resolution desktops and laptops -------------- */
+        @media screen and (min-width :1024px) {
+            .container{
+                width: 980px;
+                padding: 5px 15px;
+            }
+        }
+        /* High resolution desktops and laptops ------------- */
+        @media all and (min-width: 1280px){
+            .container{
+                width: 1200px;
+                padding: 5px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus delectus dicta rem enim corrupti tempora quam vitae, nemo ab eius maxime ut quod nesciunt officiis aut eligendi perspiciatis, autem mollitia amet quasi omnis sint distinctio, ex necessitatibus! Laboriosam nisi eiu Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veniam debitis explicabo amet consequatur corrupti ducimus fugit praesentium, quod deleniti beatae? In quos quis repudiandae, ea ut vitae aliquid ad aliquam vel quo laborum velit! Blanditiis, magnam exercitationem autem voluptatibus quisquam officia voluptate nesciunt voluptas reprehenderit deserunt itaque sapiente commodi.s ipsa, tempore earum, velit quia est deserunt quas mollitia eveniet.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorem repudiandae unde exercitationem maiores eius eaque nesciunt ullam earum officiis id architecto perspiciatis eos voluptas pariatur cumque dolorum velit dolore. Officia maiores doloremque rerum saepe dolorum molestiae! Recusandae repudiandae fuga expedita temporibus consequuntur id ullam accusantium, dolor odit! Recusandae pariatur repellendus corrupti at asperiores deleniti, tenetur laudantium fuga quae ut distinctio nulla odit voluptatum explicabo a veritatis? Dolore, libero mollitia! Nostrum, praesentium vero. Nobis quas vel nostrum nemo velit quasi quae consectetur iusto architecto facilis eveniet ipsa officiis a eligendi, dolorum tempora distinctio aspernatur impedit tenetur? Ullam facilis ipsum natus.</p>
+    </div>
+</body>
+</html>
