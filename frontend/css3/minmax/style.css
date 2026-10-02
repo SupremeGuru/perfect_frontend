@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    /* code for sidebar with minmax*/
+    grid-template-columns: minmax(200px,300px) 1fr;
+    gap: 30px;
+}
+.card{
+    border-radius: 15px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.green{
+    border-radius: 15px;
+    background-color: green;
+    padding: 20px;
+}
+
+.yellow{
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 20px;
+}
