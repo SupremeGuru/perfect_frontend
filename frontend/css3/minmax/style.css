@@ -2,6 +2,8 @@
     display: grid;
     /* code for sidebar with minmax*/
     grid-template-columns: minmax(200px,300px) 1fr;
+    /* code for double sidebar */
+    /* grid-template-columns: minmax(200px,300px) 1fr minmax(200px,300px); */
     gap: 30px;
 }
 .card{

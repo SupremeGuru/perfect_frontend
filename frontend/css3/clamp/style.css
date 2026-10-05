@@ -1,0 +1,15 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: clamp(300px, 50% ,440px);
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: clamp(2vw, 8.5vw, 5vw);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
