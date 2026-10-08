@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just like transition in powerpoint</title>
+    <style>
+        button{
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font: bold 18px sans serif;
+            background: #fd7c2a;
+            transition-property: background, border, font-size, ;
+            transition-duration: 3s, 5s, 2s;
+            transition-delay: 3s;
+            transition-timing-function: ease-in-out;
+
+        }
+        button:hover{
+            background: rgb(64, 101, 79);
+            border: 5px solid rgb(54, 253, 54);
+        }
+    </style>
+</head>
+<body>
+    <button type="button">Hover on me</button>
+</body>
+</html>
